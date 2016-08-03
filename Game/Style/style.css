@@ -1,0 +1,15 @@
+canvas{
+    display: block;
+    touch-action: none;
+    width: 785px;
+    height: 442px;
+    cursor: default;
+    margin-left: 3px;
+    margin-right: -3px;
+    margin-top: 0;
+}
+
+#team-name {
+    color : #33CC33;
+    text-align: center;
+}
