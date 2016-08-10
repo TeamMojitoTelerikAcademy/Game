@@ -4,12 +4,38 @@ canvas{
     width: 785px;
     height: 442px;
     cursor: default;
-    margin-left: 3px;
-    margin-right: -3px;
-    margin-top: 0;
-}
+    border: 5px solid orange;
+    border-radius: 10px;
+    box-shadow: 0 0 50px black;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
+}
 #team-name {
-    color : #33CC33;
+    color : darkgreen;
+    font-size: 50px;
+    text-decoration: underline;
     text-align: center;
 }
+
+body {
+    background-image: url("../Resorses/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#footer-text{
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
