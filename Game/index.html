@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <title>Team Mojito game / Telerik Academy Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <link href="Style/style.css" rel="stylesheet"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
+    <link href="Style/style.css" rel="stylesheet"/>
+    
+  
+
+    <script src="phaser.js"></script>
+
+    <script src="Boot.js"></script>
+    <script src="Preloader.js"></script>
+    <script src="MainMenu.js"></script>
+    <script src="Play.js"></script>
+    <script src="Level1.js"></script>
+    
+    
 
 </head>
 <body>
@@ -15,8 +27,23 @@
     </header>
 
     <main>
-        <script src="js/view/sprite.js" type="text/javascript" defer></script>
-        <script src="js/main.js" type="text/javascript" defer></script>
+
+     <script src="js/view/sprite.js" type="text/javascript" defer></script> 
+     <script src="js/main.js" type="text/javascript" defer></script> 
+        <script type="text/javascript">
+            window.onload = function () {
+                var game = new Phaser.Game(800, 600,Phaser.CANVAS,'');
+
+                game.state.add('Boot', Game.Boot);
+                game.state.add('Preloader', Game.Preloader);
+                game.state.add('MainMenu', Game.MainMenu);
+                game.state.add('Play', Game.Play);
+                game.state.add('Level1', Game.Level1);
+
+                game.state.start('Boot');
+                
+            };
+        </script>
     </main>
 
     <footer>
