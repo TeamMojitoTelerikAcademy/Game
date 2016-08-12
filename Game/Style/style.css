@@ -19,7 +19,7 @@ canvas{
 }
 
 body {
-    background-image: url("../Resorses/back.jpg");
+    background-image: url("../assets/back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
