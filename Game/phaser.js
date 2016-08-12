@@ -102722,11 +102722,6 @@ Object.defineProperty(Phaser.Video.prototype, "playing", {
 Phaser.Video.prototype.constructor = Phaser.Video;
 
 /* global Phaser:true */
-/**
-* @author       Richard Davey <rich@photonstorm.com>
-* @copyright    2016 Photon Storm Ltd.
-* @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
-*/
 
 //  Pixi expects these globals to exist
 
@@ -102766,11 +102761,7 @@ if (PIXI.Graphics && PIXI.Graphics.POLY === undefined)
 
 PIXI.TextureSilentFail = true;
 
-/**
-* @author       Richard Davey <rich@photonstorm.com>
-* @copyright    2016 Photon Storm Ltd.
-* @license      {@link https://github.com/photonstorm/phaser/blob/master/license.txt|MIT License}
-*/
+
 
     if (typeof exports !== 'undefined') {
         if (typeof module !== 'undefined' && module.exports) {
