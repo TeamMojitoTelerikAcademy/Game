@@ -102762,7 +102762,6 @@ if (PIXI.Graphics && PIXI.Graphics.POLY === undefined)
 PIXI.TextureSilentFail = true;
 
 
-
     if (typeof exports !== 'undefined') {
         if (typeof module !== 'undefined' && module.exports) {
             exports = module.exports = Phaser;
