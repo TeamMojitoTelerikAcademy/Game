@@ -1,0 +1,28 @@
+ body {
+       
+         background-color: lightskyblue
+  
+        }
+
+canvas {
+   
+    border: 5px solid orange;
+  
+    
+   
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+   
+    display: block;
+    width: 800px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: snow;
+};
+
